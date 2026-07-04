@@ -300,4 +300,48 @@ Deploy complete application.
 
 
 -----------------------------------------------------------------------'
+🏗️ System Architecture
+
+
+                User
+                  │
+                  ▼
+         Streamlit Dashboard
+                  │
+      ┌───────────┴────────────┐
+      ▼                        ▼
+Water Quality          Water Demand
+Prediction             Prediction
+      │                        │
+      └───────────┬────────────┘
+                  ▼
+             ML Models
+                  │
+                  ▼
+        Preprocessed Dataset
+                  │
+                  ▼
+         Raw Dataset + API Dataq
+
+
+Future AquaMind Decision Engine
+
+
+Sensor Data
+       │
+       ▼
+Rule Engine
+       │
+       ▼
+ML Model
+       │
+       ▼
+Explainable AI
+       │
+       ▼
+Recommendation Engine
+       │
+       ▼
+Dashboard
+
 

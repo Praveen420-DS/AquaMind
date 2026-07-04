@@ -1,0 +1,62 @@
+sensors cost
+
+| Component                            | Approx. Cost |
+| ------------------------------------ | -----------: |
+| ESP32                                |    ₹400–₹600 |
+| Ultrasonic Sensor (HC-SR04)          |     ₹80–₹150 |
+| Water Flow Sensor (YF-S201)          |    ₹250–₹400 |
+| Water Pump (Mini DC)                 |    ₹200–₹350 |
+| Plastic Tubes                        |         ₹100 |
+| Small Water Tank (Plastic Container) |    ₹100–₹200 |
+| Breadboard + Jumper Wires            |         ₹200 |
+| Power Adapter                        |         ₹200 |
+
+
+Total: ~₹1,800 (approx.)
+
+
+Option 2: Advanced Demo
+
+Estimated cost: ₹4,000–₹8,000
+
+Add:
+
+pH Sensor
+TDS Sensor
+Turbidity Sensor
+Solenoid Valve
+Relay Module
+LCD Display
+
+This looks more impressive but isn't necessary for Version 1.
+
+
+Mini AquaMind Architecture
+
+           Tank (Dam)
+               │
+     Ultrasonic Sensor
+               │
+               ▼
+          Mini Water Pump
+               │
+               ▼
+        Flow Sensor
+               │
+               ▼
+         Distribution Pipe
+               │
+         (Leak Simulation)
+               │
+               ▼
+         House Tank
+      Ultrasonic Sensor
+               │
+               ▼
+             ESP32
+               │
+           Wi-Fi / USB
+               │
+               ▼
+          AquaMind Dashboard
+
