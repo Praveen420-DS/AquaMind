@@ -126,22 +126,18 @@ AquaMind/
 
 ## 📌 Current Status
 
-**Week 1 – Project Setup**
+**Week 1 – Completed**
 
-✅ Project Initialized
+Current Status:
+Week 1 Completed
 
-⬜ Dataset Collection
+✔ Project Setup
+✔ GitHub Repository
+✔ Dataset Collection
+✔ Exploratory Data Analysis (EDA)
 
-⬜ Exploratory Data Analysis
-
-⬜ Model Development
-
-⬜ Dashboard Development
-
-⬜ API Integration
-
-⬜ Deployment
-
+Next:
+Data Cleaning & Preprocessing
 ---
 
 ## 👨‍💻 Developer
