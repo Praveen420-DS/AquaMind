@@ -126,18 +126,29 @@ AquaMind/
 
 ## 📌 Current Status
 
-**Week 1 – Completed**
 
-Current Status:
-Week 1 Completed
 
-✔ Project Setup
-✔ GitHub Repository
-✔ Dataset Collection
-✔ Exploratory Data Analysis (EDA)
+**Week 2 – Completed**
 
-Next:
-Data Cleaning & Preprocessing
+### ✅ Completed
+
+- Project Setup
+- GitHub Repository
+- Dataset Collection
+- Dataset Understanding
+- Exploratory Data Analysis (EDA)
+- Missing Value Analysis
+- Data Cleaning
+- Missing Value Imputation
+- Feature Scaling
+- Train-Test Split
+- StandardScaler Implementation
+- Saved Processed Dataset
+- Saved Scaler
+
+### 🚀 Next
+
+Week 3 – Machine Learning Model Training
 ---
 
 ## 👨‍💻 Developer
